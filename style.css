@@ -1,0 +1,78 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        background-color: rgb(171, 183, 221);
+    }
+    
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    header {
+        color: rgb(231, 231, 231);
+        position: fixed;
+        top: 40px;
+        left: 40px
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(192, 192, 192);
+    }
+    
+    a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    section {
+        height: 100vh;
+        width: auto;
+        background-size: cover;
+        /* this will fix the background to the browser viewport */
+        background-attachment: fixed;
+    }
+    
+    .img1 {
+        background-image: url(imgs/1.jpg);
+    }
+    
+    .img2 {
+        background-image: url(imgs/2.jpg);
+    }
+    
+    .img3 {
+        background-image: url(imgs/3.jpg);
+    }
+    
+    .img4 {
+        background-image: url(imgs/4.jpg);
+    }
+    
+    footer {
+        position: fixed;
+        color: rgb(231, 231, 231);
+        bottom: 20px;
+        left: 20px;
+    }
+    
+    footer a {
+        margin-left: 10px;
+    }
+    
+    .img1 .content {
+        position: sticky;
+        top: 180px;
+        bottom: 250px;
+        text-align: center;
+        color: aliceblue;
+    }
+    
+    .content h1 {
+        margin: 0px;
+        padding: 0;
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
